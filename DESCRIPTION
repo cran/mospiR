@@ -1,0 +1,31 @@
+Package: mospiR
+Type: Package
+Title: Client for the 'MoSPI' Microdata Portal
+Version: 0.1.0
+Authors@R: 
+    person("Saket", "Choudhary", , "saketc@iitb.ac.in", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-5202-7633"))
+Description: Download unit-level survey microdata from the Ministry of
+    Statistics and Programme Implementation ('MoSPI', Government of India)
+    Microdata Portal <https://microdata.gov.in>. Provides functions to list
+    datasets, list files within a dataset, and download individual files or
+    entire datasets through the portal's 'NADA' API.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Language: en-US
+Depends: R (>= 4.1.0)
+Imports: httr2 (>= 1.0.0)
+Suggests: testthat (>= 3.0.0), knitr, rmarkdown
+VignetteBuilder: knitr
+Config/testthat/edition: 3
+Config/Needs/website: pkgdown
+URL: https://mospir.saketlab.org, https://github.com/saketkc/mospiR
+BugReports: https://github.com/saketkc/mospiR/issues
+Config/roxygen2/version: 8.1.0
+NeedsCompilation: no
+Packaged: 2026-10-16 21:20:25 UTC; mcclintock
+Author: Saket Choudhary [aut, cre] (ORCID:
+    <https://orcid.org/0000-0001-5202-7633>)
+Maintainer: Saket Choudhary <saketc@iitb.ac.in>
+Repository: CRAN
+Date/Publication: 2026-10-27 17:10:02 UTC
